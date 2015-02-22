@@ -1,11 +1,17 @@
-(function($) {
- 
-  $(document).ready(function(){
-   
-      
-      
-      
-  //end of document.ready function
-  });
-
+(function($) {
+ 
+  $(document).ready(function(){
+   
+    //scroling in menu
+     $('.menu a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top-80
+        }, 750,'swing');
+        return false;
+     });  
+      
+      
+  //end of document.ready function
+  });
+
 })(jQuery);
