@@ -78,6 +78,9 @@ function sh_theme_setup() {
 endif; // sh_theme_setup
 add_action( 'after_setup_theme', 'sh_theme_setup' );
 
+
+    add_theme_support( 'post-thumbnails' ); 
+
 /**
  * Register widget area.
  *
