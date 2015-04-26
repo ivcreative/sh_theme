@@ -868,6 +868,18 @@ the html will be:
 }
 
 
+/*
+Bootstrap modal flaw fixed
+http://stackoverflow.com/a/27845118/2721050
+*/
+body.modal-open, 
+.modal-open .navbar-fixed-top, 
+.modal-open .navbar-fixed-bottom 
+{
+    padding-right:0 !important;
+    overflow-y: auto;
+    margin-right: 0 !important;
+}
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
