@@ -11,11 +11,13 @@
 	</div><!-- #content -->
 </div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href=""></a>
-			<span class="sep"> | </span>
-		</div><!-- .site-info -->
+	<footer id="colophon" class="footer site-footer" role="contentinfo">
+        <div class="container">
+            <div class="site-info">
+                <a href=""></a>
+                <span class="sep">  | </span>
+            </div><!-- .site-info -->
+        </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
