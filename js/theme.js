@@ -2,6 +2,8 @@
  
   $(document).ready(function(){
    
+    //Bootstrap Tab Collapse
+    $('.nav.nav-tabs').tabCollapse();
      
       
       
