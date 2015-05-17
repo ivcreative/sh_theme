@@ -34,7 +34,7 @@ get_header(); ?>
                 </main><!-- #main -->
             </div><!-- #primary -->
             
-         </div><!-- .col-md-8 -->
+         </div><!-- .col-md-8 --><!-- .col-md-8 -->
 <?php get_sidebar(); ?>
 </div><!-- .row -->
 <?php get_footer(); ?>
