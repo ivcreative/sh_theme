@@ -789,6 +789,14 @@ object {
 /* sh-theme custom styles */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+a:focus{
+    outline: none;
+}
+
+a:hover,a:focus{
+    text-decoration: none;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 /* http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
     
