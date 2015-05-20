@@ -15,7 +15,6 @@
         <div class="container">
             <div class="site-info">
                 <a href=""></a>
-                <span class="sep">  | </span>
             </div><!-- .site-info -->
         </div>
 	</footer><!-- #colophon -->
