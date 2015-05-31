@@ -52,6 +52,7 @@ function sh_theme_setup() {
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'sh-theme' ),
         'footer' => __( 'Footer Menu', 'sh-theme' ),
+        'mobile' => __( 'Mobile Menu', 'sh-theme' )
 	) );
 
 	/*
