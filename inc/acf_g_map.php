@@ -52,6 +52,11 @@ function render_map( $el ) {
 
 	// center map
 	center_map( map );
+    
+    if($(window).width() < 768){
+       map.setOptions({draggable: false}); 
+    }
+    
 
 }
 
