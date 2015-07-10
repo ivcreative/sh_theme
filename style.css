@@ -910,6 +910,7 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 0px;
+  background: red;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
