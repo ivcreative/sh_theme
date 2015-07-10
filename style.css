@@ -798,6 +798,10 @@ a:hover,a:focus{
     text-decoration: none;
 }
 
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  outline: none;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 /* http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
     
