@@ -116,7 +116,8 @@ function sh_theme_scripts() {
     
     /* - - - - plugins styles - - - - - */
     wp_enqueue_style( 'slick_css', get_template_directory_uri() . '/css/slick.css' );
-    wp_enqueue_style( 'chosen_css', get_template_directory_uri() . '/css/chosen.min.css' );
+    /*wp_enqueue_style( 'chosen_css', get_template_directory_uri() . '/css/chosen.min.css' );*/
+    wp_enqueue_style( 'chosen_css', get_template_directory_uri() . '/css/magnific-popup.css' );
     
     /* - - - - theme styles - nedd to be last - - - - - */
     wp_enqueue_style( 'sh-theme-style', get_stylesheet_uri() );
@@ -136,11 +137,13 @@ function sh_theme_scripts() {
     }
     wp_enqueue_script( 'slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '',true );
     wp_enqueue_script( 'backstretch', get_template_directory_uri() . '/js/jquery.backstretch.min.js', array('jquery'), '',true );
-    wp_enqueue_script( 'chosen_jquery', get_template_directory_uri() . '/js/chosen.jquery.min.js', array('jquery'), '',true );
+    /*wp_enqueue_script( 'chosen_jquery', get_template_directory_uri() . '/js/chosen.jquery.min.js', array('jquery'), '',true );*/
     wp_enqueue_script( 'bootstrap-tabcollapse', get_template_directory_uri() . '/js/bootstrap-tabcollapse.js', array('jquery'), '',true );
     /*wp_enqueue_script( 'spin', get_template_directory_uri() . '/js/spin.min.js', array('jquery'), '',true );*/
     wp_enqueue_script( 'scrolltofixed', get_template_directory_uri() . '/js/jquery-scrolltofixed-min.js', array('jquery'), '',true );
       wp_enqueue_script( 'isotope', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array('jquery'), '',true );
+    /* Docs here: http://dimsemenov.com/plugins/magnific-popup/documentation.html */
+      wp_enqueue_script( 'magnific-popup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array('jquery'), '',true );
    
     
     
