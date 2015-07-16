@@ -502,7 +502,7 @@ a:active {
 	}
 
 	.main-navigation ul {
-		display: none;
+		/*display: none;*/
 	}
 }
 
@@ -802,12 +802,21 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   outline: none;
 }
 
-button,button:hover {
+button,button:hover,input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,input[type="submit"],button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
   background-image: none;
   text-shadow: none;
+}
+
+/* cf7 normal valid */
+ span.wpcf7-not-valid-tip {
+    display: none;
+ }
+        
+.wpcf7-not-valid{
+     border: 1px solid red !important;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
