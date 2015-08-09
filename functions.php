@@ -181,7 +181,7 @@ require get_template_directory() . '/inc/jetpack.php';
 /**
  * Load Jetpack compatibility file.
  */
-require get_template_directory() . '/inc/acf_custom_config.php';
+require get_template_directory() . '/inc/social_icons_with_acf_config.php';
 
 /**
  * Allow SVG through WordPress Media Uploader
