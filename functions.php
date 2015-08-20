@@ -118,6 +118,7 @@ function sh_theme_scripts() {
     wp_enqueue_style( 'slick_css', get_template_directory_uri() . '/css/slick.css' );
     /*wp_enqueue_style( 'chosen_css', get_template_directory_uri() . '/css/chosen.min.css' );*/
     wp_enqueue_style( 'chosen_css', get_template_directory_uri() . '/css/magnific-popup.css' );
+    wp_enqueue_style( 'mCustomScrollbar_css', get_template_directory_uri() . '/css/jquery.mCustomScrollbar.min.css' );
     
     /* - - - - theme styles - nedd to be last - - - - - */
     wp_enqueue_style( 'sh-theme-style', get_stylesheet_uri() );
@@ -142,12 +143,12 @@ function sh_theme_scripts() {
     /*wp_enqueue_script( 'spin', get_template_directory_uri() . '/js/spin.min.js', array('jquery'), '',true );*/
     wp_enqueue_script( 'scrolltofixed', get_template_directory_uri() . '/js/jquery-scrolltofixed-min.js', array('jquery'), '',true );
       wp_enqueue_script( 'isotope', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array('jquery'), '',true );
-    /* Docs here: http://dimsemenov.com/plugins/magnific-popup/documentation.html */
       wp_enqueue_script( 'magnific-popup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array('jquery'), '',true );
+    wp_enqueue_script( 'mCustomScrollbar', get_template_directory_uri() . '/js/jquery.mCustomScrollbar.concat.min.js', array('jquery'), '',true );
    
     
     
-    /* - - - - need to be last - - - - - */
+    /* - - - - have to be last - - - - - */
     wp_enqueue_script( 'theme_js', get_template_directory_uri() . '/js/theme.js', array('jquery'), '',true );
     
 }
