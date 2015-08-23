@@ -970,3 +970,7 @@ body {
 
 .grid-item { width: 25%; }
 .grid-item--width2 { width: 50%; }
+
+.rsUni, .rsUni .rsOverflow, .rsUni .rsSlide, .rsUni .rsVideoFrameHolder, .rsUni .rsThumbs {
+    background: transparent !important;
+}
