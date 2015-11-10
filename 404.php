@@ -7,7 +7,6 @@
 
 get_header(); 
 
-test
 ?>
 
 	<div id="primary" class="content-area">
