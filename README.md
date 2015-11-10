@@ -9,5 +9,7 @@ what is SH Theme?
 SH Theme is a starter theme for WordPress based on http://underscores.me/ theme and 
 bootstrap 3 framework with cool js plugins and some smart html&css.
 
+Credits
+---------------
 
 
