@@ -988,3 +988,18 @@ example:
         float: left;
     }
 }
+
+a,a:visited {
+      color: inherit !important;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    box-shadow: none;
+    -webkit-appearance: button;
+    text-shadow: none;
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+    border-color: #ccc #bbb #aaa;
+    box-shadow: none;
+}
