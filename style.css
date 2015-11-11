@@ -1003,3 +1003,21 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
     border-color: #ccc #bbb #aaa;
     box-shadow: none;
 }
+
+/*
+responsive google maps
+http://www.labnol.org/internet/embed-responsive-google-maps/28333/
+*/
+.google-maps {
+        position: relative;
+        padding-bottom: 120%; 
+        height: 0;
+        overflow: hidden;
+}
+.google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+}
