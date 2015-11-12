@@ -990,7 +990,7 @@ example:
 }
 
 a,a:visited {
-      color: inherit !important;
+      color: inherit ;
 }
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
