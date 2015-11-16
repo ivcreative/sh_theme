@@ -1021,3 +1021,29 @@ http://www.labnol.org/internet/embed-responsive-google-maps/28333/
         width: 100% !important;
         height: 100% !important;
 }
+
+/* cf7 Styles */
+span.wpcf7-not-valid-tip {
+    display: none;
+}
+
+.wpcf7-not-valid{
+        border-color: red !important;
+}
+
+
+
+div.wpcf7-mail-sent-ok,div.wpcf7-validation-errors {
+    border: none;
+    font-size: 1rem;
+    margin: 20px 0;
+    padding: 0;
+}
+
+div.wpcf7-validation-errors {
+    color: red;
+}
+
+div.wpcf7-mail-sent-ok{
+    color: green;
+}
