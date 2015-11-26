@@ -111,7 +111,7 @@ function sh_theme_scripts() {
     if(is_rtl()){
         wp_enqueue_style( 'bootstrap-rtl-style', get_template_directory_uri() . '/css/bootstrap-rtl.min.css' );
     }
-    wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
+    wp_enqueue_style( 'font-awesome', '//cdn.upress.co.il/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css' );
    
     /* - - - - plugins styles - - - - - */
     wp_enqueue_style( 'slick_css', get_template_directory_uri() . '/css/slick.css' );
