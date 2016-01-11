@@ -1,3 +1,7 @@
+<?php if(get_field('behance_link','option')): ?>
+   <a href="<?php the_field('behance_link','option'); ?>" target="_blank"><i class="fa fa-behance"></i></a>
+<?php endif; ?>  
+
 <?php if(get_field('facebook_link','option')): ?>
    <a href="<?php the_field('facebook_link','option'); ?>" target="_blank"><i class="fa fa-facebook"></i></a>
 <?php endif; ?>
