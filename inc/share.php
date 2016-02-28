@@ -44,4 +44,8 @@
     <a target="_blank" href="mailto:?&subject=<?php the_title();?>&body=Check%20out%20this%20URL: <?php echo get_permalink();?>">
         <i class="fa fa-envelope-o"></i> <span>Email</span>
     </a>
+     <a target="_blank" href="whatsapp://send?text=<?php the_title();?>" data-action="share/whatsapp/share">
+         <i class="fa fa-whatsapp"></i> <span>WatsApp</span>
+      </a>
+    
 </div>
