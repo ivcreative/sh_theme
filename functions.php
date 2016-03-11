@@ -131,8 +131,15 @@ function sh_theme_scripts() {
     wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '',true );
     
     /* - - - - plugins js - - - - - */
-    if($_SERVER['REMOTE_ADDR']=='127.0.0.1'){
-        wp_enqueue_script( 'live', get_template_directory_uri() . '/js/live.js', array(), '',true ); 
+    
+   /* based on http://stackoverflow.com/a/2053295/2721050 */
+    $whitelist = array(
+        '127.0.0.1',
+        '::1',
+        'localhost'
+    );
+    if(in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
+        wp_enqueue_script( 'live', get_template_directory_uri() . '/js/live.js', array(), '',true );
     }
     wp_enqueue_script( 'slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '',true );
     wp_enqueue_script( 'bootstrap-tabcollapse', get_template_directory_uri() . '/js/bootstrap-tabcollapse.js', array('jquery'), '',true );
